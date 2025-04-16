@@ -157,6 +157,7 @@ nav .navigation ul li a:hover {
 @media(max-width:700px) {
     *{
         align-items: center;
+        justify-content: center;
     }
     #features .cards {
         flex-direction: column;
@@ -273,6 +274,10 @@ nav .navigation ul li a:hover {
 }
 
 @media(max-width:700px) {
+    *{
+        align-items: center;
+        justify-content: center;
+    }
     #staff .staff {
         flex-direction: column;
         
